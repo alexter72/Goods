@@ -1,0 +1,192 @@
+/* header----------------------------- */
+
+.site-header {
+  background: #fff;
+  min-height: 180px;
+}
+
+.header-line {
+  width: 100%;
+  min-height: 60px;
+  padding: 22px 0;
+}
+
+.header-line::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.block-1000 {
+  width: 83%;
+  margin: 0 1.25%;
+}
+
+.header-size {
+  text-align: right;
+  color: #49525d;
+  height: 16px;
+}
+
+.block-1000::after {
+  content: "";
+  float: left;
+  display: block;
+}
+
+.block-1000 .tel,
+.block-1000 .info {
+  font-size: 12px;
+  float: left;
+}
+
+.block-1000 img {
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.block-1000 .tel {
+  margin-left: 10px;
+}
+
+.block-1000 .header-line .tel a {
+  text-align: right;
+  text-decoration: none;
+  color: #49525d;
+}
+
+.block-170 {
+  min-width: 12%;
+  margin: 0 1.25%;
+}
+
+.social {
+  text-align: right;
+  max-height: 16px;
+}
+
+.block-170 a {
+  text-decoration: none;
+}
+
+.network {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-image: url("../images/facebook.png");
+  margin: 0 7px;
+}
+
+.facebook {
+  background-position: 0 0;
+}
+
+.google {
+  background-position: -62px 0;
+}
+
+.twitter {
+  background-position: -32px 0;
+}
+
+.noname {
+  background-position: -90px 0;
+}
+
+.header-logo {
+  width: 100%;
+  border-top: 1px solid #eee;
+  min-height: 120px;
+}
+
+.header-logo::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.block-170 .img-logo img {
+  width: 135px;
+  height: 30px;
+
+  margin-top: 30px;
+}
+
+.block-170 p {
+  margin: 0 10px 0 8px;
+  color: #49525d;
+}
+
+.block-730 {
+  width: 60%;
+  margin: 0 1.25%;
+}
+
+.header-nav {
+  line-height: 120px;
+}
+
+.block-730 ul {
+  padding-left: 55px;
+}
+
+.block-730 ul li {
+  margin: 0 12px;
+
+  display: inline-block;
+  text-decoration: none;
+}
+
+.block-730 li a {
+  text-decoration: none;
+  color: #49525d;
+}
+
+.block-270 {
+  min-width: 20.5%;
+  margin: 45px 1.25%;
+}
+
+.icons {
+  text-align: right;
+}
+
+.block-270 a {
+  text-decoration: none;
+}
+
+.icon-img {
+  width: 22px;
+  height: 22px;
+  margin: 0 13px;
+  background-image: url("../images/search.png");
+  display: inline-block;
+}
+
+.search {
+  background-position: -8px 0;
+}
+
+.man {
+  background-position: -60px 0;
+}
+
+.basket {
+  background-position: -111px 0;
+  position: relative;
+}
+
+.basket::before {
+  position: absolute;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  content: "6";
+  top: -16px;
+  left: 3px;
+  display: block;
+  text-align: center;
+}

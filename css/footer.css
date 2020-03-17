@@ -1,0 +1,84 @@
+/* ----------------------------------------footer */
+
+.site-footer {
+  min-height: 240px;
+  background: #fff;
+}
+
+.footer-blocks {
+  width: 100%;
+  padding-top: 80px;
+}
+
+.footer-blocks::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.block-390 {
+  width: 30.8333%;
+  margin: 0 1.25%;
+}
+
+.block-390 .img-logo img {
+  width: 135px;
+  height: 30px;
+}
+
+.block-390 p.shopy-label {
+  margin-left: 8px;
+  margin-bottom: 23px;
+  color: #49525d;
+}
+
+.block-390 p.copyright {
+  font-size: 18px;
+  color: #49525d;
+
+  margin-left: 8px;
+}
+
+.block-195 {
+  min-width: 14.1666%;
+  margin: 0 1.25%;
+}
+.block-195 ul {
+  margin: 0;
+}
+.block-195 ul li {
+  margin: 15px 0;
+  font-size: 14px;
+}
+.block-195 ul li.active {
+  color: #f38b48;
+}
+
+.payment {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.img-card {
+  background-image: url("../images/cards.png");
+  width: 27px;
+  height: 19px;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+.orangecard {
+  background-position: -36px 0;
+}
+
+.visa {
+  background-position: -71px 0;
+}
+
+.master {
+  background-position: -107px 0;
+}
+
+.gray {
+  background-position: -143px 0;
+}

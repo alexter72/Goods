@@ -484,6 +484,11 @@ h3 {
   .icons {
     margin-bottom: 30px;
   }
+
+  .footer-blocks .block-195,
+  .footer-blocks .block-390 {
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -566,11 +571,6 @@ h3 {
 
   .letter-email img {
     margin-left: 0;
-  }
-
-  .footer-blocks .block-195,
-  .footer-blocks .block-390 {
-    margin-bottom: 15px;
   }
 
   .block-195 ul {

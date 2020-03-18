@@ -44,7 +44,7 @@
   margin: 0 1.25%;
 }
 .block-195 ul {
-  margin: 0;
+  padding-left: 25px;
 }
 .block-195 ul li {
   margin: 15px 0;
@@ -54,9 +54,13 @@
   color: #f38b48;
 }
 
+.margin-bm {
+  margin-bottom: 30px;
+}
+
 .payment {
   font-size: 16px;
-  margin: 20px 0;
+  margin: 10px;
 }
 
 .img-card {

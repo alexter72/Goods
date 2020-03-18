@@ -572,4 +572,12 @@ h3 {
   .footer-blocks .block-390 {
     margin-bottom: 15px;
   }
+
+  .block-195 ul {
+    padding: 0;
+  }
+
+  .block-195 ul li {
+    list-style-type: none;
+  }
 }

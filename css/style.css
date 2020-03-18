@@ -35,6 +35,12 @@ body {
   margin: 0 -1.25%;
 }
 
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 /* 
   .block-170, 12      2.5      
   .block-195, 14.1667 2.5
@@ -161,7 +167,6 @@ h3 {
 /* circles------------------------------*/
 
 .circles-block {
-  width: 100%;
   background: #fff;
   line-height: 60px;
   min-height: 60px;
@@ -233,7 +238,6 @@ h3 {
   font-size: 22px;
   color: grey;
   margin: 10px 0;
-  text-align: left;
 }
 
 .text-blockp {
@@ -243,7 +247,7 @@ h3 {
 }
 
 .price-block {
-  width: 23%;
+  min-width: 23%;
   margin: 0 2%;
   text-align: left;
   float: left;
@@ -425,6 +429,7 @@ h3 {
   .block-390,
   .block-585,
   .block-730,
+  .block-900,
   .block-1000,
   .slider-block {
     width: auto;
@@ -485,27 +490,21 @@ h3 {
     margin-bottom: 30px;
   }
 
-  .footer-blocks .block-195,
-  .footer-blocks .block-390 {
-    margin-bottom: 15px;
+  .sidebar-block {
+    margin-bottom: 30px;
+    height: 300px;
+  }
+
+  .good-block-270 {
+    margin-bottom: 30px;
+  }
+
+  .circles-block {
+    margin-bottom: 115px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .block-170,
-  .block-195,
-  .block-270,
-  .block-300,
-  .block-390,
-  .block-585,
-  .block-730,
-  .block-1000,
-  .slider-block {
-    width: auto;
-    min-height: auto;
-    float: none;
-    margin: 0;
-  }
   .sd-1,
   .sd-2,
   .sd-3,
@@ -544,6 +543,10 @@ h3 {
   .sd-center {
     text-align: center;
   }
+  .block-1000 {
+    margin-bottom: 30px;
+  }
+
   .slider-background {
     max-height: 350px;
   }
@@ -573,11 +576,20 @@ h3 {
     margin-left: 0;
   }
 
+  .footer-blocks .block-195,
+  .footer-blocks .block-390 {
+    margin-bottom: 15px;
+  }
+
   .block-195 ul {
     padding: 0;
   }
 
   .block-195 ul li {
     list-style-type: none;
+  }
+
+  .good-block-270 {
+    margin-bottom: 30px;
   }
 }
